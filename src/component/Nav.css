@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+  }
+  .header{
+    background-color: green;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:white solid 5px;
+  
+  }
+  .header ul{
+    display: flex;
+    column-gap: 300px; 
+    list-style: none;  
+    height: 80px;
+    width: 90%;
+    border-radius: 30px;
+    /* border:white solid 5px; */
+    justify-content: center;
+  }
+  .navLink{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    
+  }
